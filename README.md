@@ -11,8 +11,7 @@
    配置文件：data.yaml
 
 2. 数据集
-   - 基础数据集来源于网络公开资源
-   - 校园测试图片为本人在同济大学实地拍摄
+   请自行前往原地址下载https://atomgit.com/ai53_19/garbage_datasets.git
 
 3. 训练日志
    包含训练 loss 曲线、mAP 指标、混淆矩阵等评价图表

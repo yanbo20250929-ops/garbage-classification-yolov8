@@ -82,7 +82,7 @@ class GarbageDetector:
             ax.set_title(os.path.basename(image_path))
             ax.axis('off')
 
-            results = self.model(image_path)
+            results = self.model(image_path,conf=0.3)
             for result in results:
                 boxes = result.boxes
                 for box in boxes:
